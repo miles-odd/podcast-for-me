@@ -1,0 +1,18 @@
+{
+    "name": "__MSG_appName__",
+    "short_name": "__MSG_appShortName__",
+    "description": "__MSG_appDescription__",
+    "homepage_url": "http://chrome.google.com/webstore",
+    "version": "0.0.1",
+    "version_name": "0.0.1",
+    "manifest_version": 3,
+    "default_locale": "en",
+    "minimum_chrome_version": "88",
+    "permissions": ["scripting"],
+    "host_permissions": ["<all_urls>"],
+
+    "action": {
+        "default_title": "Click Me",
+        "default_popup": "hello.html"
+    }
+}
